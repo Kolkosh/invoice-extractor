@@ -9,7 +9,10 @@ client = OpenAI(
     api_key=os.getenv("OPENROUTER_API_KEY"),
 )
 
-MODEL = "openrouter/free"
+# Фиксируем конкретную модель, чтобы замеры были сравнимы
+MODEL = "nvidia/nemotron-3-ultra-550b-a55b:free"
+# Меняйте при каждой правке промпта: кэш замеров привязан к версии
+PROMPT_VERSION = "v1"
 
 
 def clean_json(raw: str) -> str:
@@ -18,7 +21,8 @@ def clean_json(raw: str) -> str:
     return raw[start:end + 1]
 
 
-def extract(text: str) -> Invoice:
+def ask_model(text: str, model: str = MODEL) -> tuple[str, str]:
+    """Один запрос к модели. Возвращает (сырой ответ, имя ответившей модели)."""
     schema = Invoice.model_json_schema()
     prompt = (
         "Извлеки данные из счёта и верни ТОЛЬКО JSON, без пояснений и без markdown.\n"
@@ -26,13 +30,22 @@ def extract(text: str) -> Invoice:
         f"Счёт:\n{text}"
     )
     reply = client.chat.completions.create(
-        model=MODEL,
+        model=model,
         messages=[{"role": "user", "content": prompt}],
         temperature=0,
     )
-    print("Ответила модель:", reply.model)
-    raw = reply.choices[0].message.content or ""
+    return reply.choices[0].message.content or "", reply.model
+
+
+def parse_invoice(raw: str) -> Invoice:
+    """Превращает сырой ответ в проверенный объект Invoice (или бросает ошибку)."""
     return Invoice.model_validate_json(clean_json(raw))
+
+
+def extract(text: str, model: str = MODEL) -> Invoice:
+    raw, answered_by = ask_model(text, model)
+    print("Ответила модель:", answered_by)
+    return parse_invoice(raw)
 
 
 if __name__ == "__main__":

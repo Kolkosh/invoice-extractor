@@ -1,0 +1,4 @@
+{
+  "raw": "{\"invoice_number\": \"45\", \"date\": \"2024-06-01\", \"vendor\": \"АО «Прогресс»\", \"currency\": \"RUB\", \"items\": [{\"description\": \"Услуги хостинга, 12 мес.\", \"quantity\": 12, \"unit_price\": 1000}], \"total\": 14400}",
+  "answered_by": "nvidia/nemotron-3-ultra-550b-a55b:free"
+}

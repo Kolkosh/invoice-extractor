@@ -77,7 +77,7 @@ DATASET = [
             "items": [
                 {"description": "Услуги хостинга", "quantity": 12, "unit_price": 1000},
             ],
-            "total": 14400,
+            "total": 12000,
         },
     },
     {
