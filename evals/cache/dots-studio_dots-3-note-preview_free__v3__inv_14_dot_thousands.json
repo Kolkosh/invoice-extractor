@@ -1,0 +1,4 @@
+{
+  "raw": "\n\n{\"$defs\": {\"LineItem\": {\"properties\": {\"description\": {\"title\": \"Description\", \"type\": \"string\"}, \"quantity\": {\"title\": \"Quantity\", \"type\": \"number\"}, \"unit_price\": {\"title\": \"Unit Price\", \"type\": \"number\"}}, \"required\": [\"description\", \"quantity\", \"unit_price\"], \"title\": \"LineItem\", \"type\": \"object\"}}, \"invoice_number\": \"33\", \"date\": \"2024-10-14\", \"vendor\": \"ООО «Складские системы»\", \"currency\": \"RUB\", \"items\": [{\"description\": \"Стеллаж металлический\", \"quantity\": 2, \"unit_price\": 12500.0}, {\"description\": \"Тележка\", \"quantity\": 1, \"unit_price\": 7800.0}], \"total\": 32800.0}",
+  "answered_by": "dots-studio/dots-3-note-preview:free"
+}

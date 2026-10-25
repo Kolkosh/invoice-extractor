@@ -1,0 +1,4 @@
+{
+  "raw": "\n\n{\"invoice_number\":\"118\",\"date\":\"2024-04-15\",\"vendor\":\"ИП Сидоров А.В.\",\"currency\":\"RUB\",\"items\":[{\"description\":\"Тетрадь 48 л.\",\"quantity\":10,\"unit_price\":35},{\"description\":\"Ручка шариковая\",\"quantity\":20,\"unit_price\":12}],\"total\":590}",
+  "answered_by": "dots-studio/dots-3-note-preview:free"
+}

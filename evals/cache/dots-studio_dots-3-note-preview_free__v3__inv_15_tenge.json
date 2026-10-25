@@ -1,0 +1,4 @@
+{
+  "raw": "\n\n{\"invoice_number\": \"А-15\", \"date\": \"2024-01-22\", \"vendor\": \"ТОО «Астана Снаб»\", \"currency\": \"KZT\", \"items\": [{\"description\": \"Принтер лазерный\", \"quantity\": 1, \"unit_price\": 85000}, {\"description\": \"Картридж\", \"quantity\": 3, \"unit_price\": 12000}], \"total\": 121000}",
+  "answered_by": "dots-studio/dots-3-note-preview:free"
+}

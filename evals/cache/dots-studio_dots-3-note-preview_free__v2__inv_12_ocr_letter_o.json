@@ -1,0 +1,4 @@
+{
+  "raw": "\n\n{\"invoice_number\": \"61\", \"date\": \"2023-12-11\", \"vendor\": \"ООО «Заря»\", \"currency\": \"RUB\", \"items\": [{\"description\": \"Лампа LED 9Вт\", \"quantity\": 6, \"unit_price\": 100}, {\"description\": \"Патрон Е27\", \"quantity\": 4, \"unit_price\": 50}], \"total\": 800}",
+  "answered_by": "dots-studio/dots-3-note-preview:free"
+}

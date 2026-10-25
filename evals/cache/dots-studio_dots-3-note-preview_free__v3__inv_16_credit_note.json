@@ -1,0 +1,4 @@
+{
+  "raw": "\n\n{\"invoice_number\": \"К-9\", \"date\": \"2024-05-10\", \"vendor\": \"ООО «Офис-Центр»\", \"currency\": \"RUB\", \"items\": [{\"description\": \"Клавиатура\", \"quantity\": 2, \"unit_price\": -1200}], \"total\": -2400}",
+  "answered_by": "dots-studio/dots-3-note-preview:free"
+}

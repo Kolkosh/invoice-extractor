@@ -1,0 +1,4 @@
+{
+  "raw": "\n\n{'invoice_number': 'СЧ-0042/Б', 'date': '2023-11-05', 'vendor': 'ООО «Лучшие решения»', 'currency': 'RUB', 'items': [{'description': 'Стул офисный', 'quantity': 4, 'unit_price': 2500}, {'description': 'Стол письменный', 'quantity': 1, 'unit_price': 8900}], 'total': 18900}",
+  "answered_by": "dots-studio/dots-3-note-preview:free"
+}

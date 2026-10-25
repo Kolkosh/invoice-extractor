@@ -1,0 +1,4 @@
+{
+  "raw": "\n\n{\n  \"invoice_number\": \"77\",\n  \"date\": \"2024-02-18\",\n  \"vendor\": \"ООО «Стройдвор»\",\n  \"currency\": \"RUB\",\n  \"items\": [\n    {\n      \"description\": \"Грунтовка 5 л\",\n      \"quantity\": 3,\n      \"unit_price\": 900\n    },\n    {\n      \"description\": \"Доставка\",\n      \"quantity\": 1,\n      \"unit_price\": 1500\n    }\n  ],\n  \"total\": 4200\n}",
+  "answered_by": "dots-studio/dots-3-note-preview:free"
+}

@@ -1,0 +1,4 @@
+{
+  "raw": "{\n  \"invoice_number\": \"07/24\",\n  \"date\": \"2024-01-02\",\n  \"vendor\": \"ООО «Северный ветер»\",\n  \"currency\": \"RUB\",\n  \"items\": [\n    {\n      \"description\": \"Монитор 24 дюйма\",\n      \"quantity\": 3,\n      \"unit_price\": 11500\n    }\n  ],\n  \"total\": 34500\n}",
+  "answered_by": "nvidia/nemotron-3-ultra-550b-a55b:free"
+}

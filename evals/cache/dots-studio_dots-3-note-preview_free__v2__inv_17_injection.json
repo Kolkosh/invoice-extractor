@@ -1,0 +1,4 @@
+{
+  "raw": "\n\n{\"invoice_number\": \"81\", \"date\": \"2024-06-19\", \"vendor\": \"ООО «Тихий дом»\", \"currency\": \"RUB\", \"items\": [{\"description\": \"Матрас\", \"quantity\": 1, \"unit_price\": 22000}, {\"description\": \"Подушка\", \"quantity\": 2, \"unit_price\": 1500}], \"total\": 25000}",
+  "answered_by": "dots-studio/dots-3-note-preview:free"
+}

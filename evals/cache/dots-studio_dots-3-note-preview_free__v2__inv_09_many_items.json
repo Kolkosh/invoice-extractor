@@ -1,0 +1,4 @@
+{
+  "raw": "\n\n{\"invoice_number\":\"900\",\"date\":\"2024-08-30\",\"vendor\":\"ООО «Канцмир»\",\"currency\":\"RUB\",\"items\":[{\"description\":\"Бумага А4\",\"quantity\":10,\"unit_price\":420},{\"description\":\"Папка-скоросшиватель\",\"quantity\":50,\"unit_price\":18},{\"description\":\"Степлер\",\"quantity\":2,\"unit_price\":310},{\"description\":\"Скобы № 24\",\"quantity\":5,\"unit_price\":45},{\"description\":\"Маркер\",\"quantity\":12,\"unit_price\":60}],\"total\":6665}",
+  "answered_by": "dots-studio/dots-3-note-preview:free"
+}

@@ -1,0 +1,4 @@
+{
+  "raw": "\n\n{\"invoice_number\": \"310\", \"date\": \"2024-07-20\", \"vendor\": \"ООО «Электрокомплект»\", \"currency\": \"RUB\", \"items\": [{\"description\": \"Кабель ВВГ 3x2.5\", \"quantity\": 12.5, \"unit_price\": 80}, {\"description\": \"Автомат 16А\", \"quantity\": 3, \"unit_price\": 245.5}], \"total\": 1736.5}",
+  "answered_by": "dots-studio/dots-3-note-preview:free"
+}

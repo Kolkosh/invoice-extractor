@@ -1,0 +1,4 @@
+{
+  "raw": "\n\n{\"invoice_number\": \"12-К\", \"date\": \"2024-09-25\", \"vendor\": \"ИП Козлова Е.Н.\", \"currency\": \"RUB\", \"items\": [{\"description\": \"Консультация\", \"quantity\": 3, \"unit_price\": 2000}], \"total\": 6000}",
+  "answered_by": "dots-studio/dots-3-note-preview:free"
+}

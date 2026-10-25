@@ -1,0 +1,4 @@
+{
+  "raw": "\n\n{\"invoice_number\":\"140\",\"date\":\"2024-04-03\",\"vendor\":\"ООО «Лидер»\",\"currency\":\"RUB\",\"items\":[{\"description\":\"Профнастил\",\"quantity\":20,\"unit_price\":650}],\"total\":13000}",
+  "answered_by": "dots-studio/dots-3-note-preview:free"
+}

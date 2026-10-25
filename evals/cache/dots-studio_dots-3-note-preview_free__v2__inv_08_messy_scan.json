@@ -1,0 +1,4 @@
+{
+  "raw": "\n\n{\n  \"invoice_number\": \"55\",\n  \"date\": \"2023-11-07\",\n  \"vendor\": \"ООО «Ветер»\",\n  \"currency\": \"RUB\",\n  \"items\": [\n    {\n      \"description\": \"Краска белая 10л\",\n      \"quantity\": 2,\n      \"unit_price\": 1800\n    },\n    {\n      \"description\": \"Валик малярный\",\n      \"quantity\": 5,\n      \"unit_price\": 220\n    }\n  ],\n  \"total\": 4700\n}",
+  "answered_by": "dots-studio/dots-3-note-preview:free"
+}
