@@ -1,1 +1,50 @@
-﻿
+﻿╠юфхы№: nvidia/nemotron-3-ultra-550b-a55b:free | тхЁёш  яЁюьяЄр: v1
+
+[ъ¤°] inv_01_simple
+[ъ¤°] inv_02_date_words
+[ъ¤°] inv_03_discount
+[ъ¤°] inv_04_vat
+[ъ¤°] inv_05_usd_english
+[ъ¤°] inv_06_decimals
+[ъ¤°] inv_07_letters_in_number
+[ъ¤°] inv_08_messy_scan
+[ъ¤°] inv_09_many_items
+[ъ¤°] inv_10_vat_included
+[ъ¤°] inv_11_payee_contract
+[ъ¤°] inv_12_ocr_letter_o
+[ъ¤°] inv_13_line_total_only
+[ъ¤°] inv_14_dot_thousands
+[ъ¤°] inv_15_tenge
+[ъ¤°] inv_16_credit_note
+[ъ¤°] inv_17_injection
+[ъ¤°] inv_18_two_digit_year
+
+фюъєьхэЄ                    эюьхЁ     фрЄр      яюёЄрт∙.  тры■Єр    яючшЎшш   шЄюую     
+inv_01_simple               ok        ok        ok        ok        ok        ok        
+inv_02_date_words           ok        ok        ok        ok        ok        ok        
+inv_03_discount             ok        ok        ok        ok        ok        ok        
+inv_04_vat                  ok        ok        ok        ok        ok        ok        
+inv_05_usd_english          ok        ok        ok        ok        ok        ok        
+inv_06_decimals             ok        ok        ok        ok        ok        ok        
+inv_07_letters_in_number    ok        ok        ok        ok        ok        ok        
+inv_08_messy_scan           ok        ok        ok        ok        ok        ok        
+inv_09_many_items           ok        ok        ok        ok        ok        ok        
+inv_10_vat_included         ok        ok        ok        ok        ok        ok        
+inv_11_payee_contract       ok        ok        ok        ok        ok        ok        
+inv_12_ocr_letter_o         ok        ok        ok        ok        ok        ok        
+inv_13_line_total_only      ok        ok        ok        ok        ok        ok        
+inv_14_dot_thousands        ok        ok        ok        ok        ok        ok        
+inv_15_tenge                ok        ok        ok        ok        ok        ok        
+inv_16_credit_note          ok        ok        ok        ok        ok        ok        
+inv_17_injection            ok        ok        ok        ok        ok        ok        
+inv_18_two_digit_year       ok        ok        ok        ok        ok        ok        
+
+╥юўэюёЄ№ яю яюы ь:
+  эюьхЁ     18/18  100%
+  фрЄр      18/18  100%
+  яюёЄрт∙.  18/18  100%
+  тры■Єр    18/18  100%
+  яючшЎшш   18/18  100%
+  шЄюую     18/18  100%
+
+─юъєьхэЄют схч хфшэющ ю°шсъш: 18 шч 18 (100%)

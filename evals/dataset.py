@@ -210,3 +210,5 @@ Total: $1,900.00""",
         },
     },
 ]
+from dataset_hard import HARD
+DATASET = DATASET + HARD

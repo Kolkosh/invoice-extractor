@@ -1,0 +1,4 @@
+{
+  "raw": "\n\n{\n  \"invoice_number\": \"45\",\n  \"date\": \"2024-06-01\",\n  \"vendor\": \"АО «Прогресс»\",\n  \"currency\": \"RUB\",\n  \"items\": [\n    {\n      \"description\": \"Услуги хостинга\",\n      \"quantity\": 12,\n      \"unit_price\": 1000\n    }\n  ],\n  \"total\": 14400\n}",
+  "answered_by": "dots-studio/dots-3-note-preview:free"
+}

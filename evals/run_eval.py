@@ -6,7 +6,8 @@ from pathlib import Path
 # добавляем папку src в пути поиска, чтобы найти extract.py и schema.py
 sys.path.append(str(Path(__file__).resolve().parent.parent / "src"))
 
-from extract import MODEL, PROMPT_VERSION, ask_model, parse_invoice
+from extract import MODEL as DEFAULT_MODEL, PROMPT_VERSION, ask_model, parse_invoice
+MODEL = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_MODEL
 from schema import Invoice
 from dataset import DATASET
 
